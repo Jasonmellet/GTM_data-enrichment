@@ -2,10 +2,39 @@
 
 ## 🎉 PROJECT STATUS: REBUILD COMPLETED
 
-**Date**: August 18, 2025  
-**Status**: System completely rebuilt and tested successfully  
-**Result**: Clean, working architecture with proven functionality  
+**Date**: August 19, 2025  
+**Status**: System rebuilt, scripts standardized (A→G), docs updated; email validation upgrade in progress  
+**Result**: Clean, working architecture; validation below target pending `F_email_discovery.py` upgrades  
 **BREAKTHROUGH**: Company-focused contact discovery achieved 470% contact growth
+
+### Repository & Branching
+- GitHub repo: `https://github.com/Jasonmellet/GTM_data-enrichment`
+- Active branch for validation upgrades: `feature/email-discovery-upgrade`
+- Script ordering in `clients/Broadway/scripts`: `A_..G_` for visual flow
+
+### Modules & Flow (A→G ordering)
+- **A_data_cleanup.py**: Clean/normalize CSVs; fix headers/types; remove duplicates; emit cleanup reports.
+- **B_db_loader.py**: Load cleaned data into Postgres (`summer_camps.organizations`, `summer_camps.contacts`); dedupe; prevent null contacts.
+- **C_web_crawler.py**: Crawl org sites; extract names/emails/phones/social; persist to DB.
+- **D_perplexity_enricher.py**: Company/contact research via Perplexity; suggests names/emails/categories; stores context for downstream.
+- **E_apollo_enricher.py**: Apollo integration. Phase 1 unlocks emails for existing Apollo contacts; Phase 2 discovers new quality contacts by company; persists enriched data.
+- **F_email_discovery.py**: Pattern-only email prediction + ZeroBounce validation. Validates existing email then up to 10 allowed formats (accept only "valid"); writes success or schedules for catchall. CURRENT UPGRADE FOCUS.
+- **G_email_catchall_migrator.py**: Batch validator/migrator; moves contacts with no valid email after attempts to `summer_camps.catchall_contacts` to control bloat.
+
+Shared utilities:
+- **common/db_connection.py**: Central Postgres connector (env-driven).
+- **common/zerobounce_validator.py**: ZeroBounce client/utilities for validation & parsing.
+- **config/client_config.py**: Client-specific settings used across modules.
+
+### End-to-End Flow
+1) Ingest: `A_data_cleanup.py` → `B_db_loader.py`  
+2) Enrich: `C_web_crawler.py`, `D_perplexity_enricher.py`, `E_apollo_enricher.py`  
+3) Validate & Curate: `F_email_discovery.py` (primary validator), `G_email_catchall_migrator.py` (curation)
+
+### Email Validation Status (Gap)
+- Discovery/research/enrichment modules are performing well.
+- Email validation is below expectations on some domains (catch‑all/no‑MX/network errors).
+- Action: upgrading `F_email_discovery.py` on `feature/email-discovery-upgrade` (MX pre-checks, retry/backoff, strict 10‑format patterns, dry‑run, richer logging).
 
 ## 📚 Lessons Learned (Why We Started Over)
 
