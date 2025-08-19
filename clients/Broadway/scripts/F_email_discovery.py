@@ -29,8 +29,8 @@ import aiohttp
 # Add the scripts directory to the path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from db_connection import get_db_connection
-from zerobounce_validator import ZeroBounceValidator
+from common.db_connection import get_db_connection
+from common.zerobounce_validator import ZeroBounceValidator
 from perplexity_enricher import PerplexityEnricher
 
 # Load environment variables from .env file

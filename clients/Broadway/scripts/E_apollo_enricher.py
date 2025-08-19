@@ -13,7 +13,7 @@ from datetime import datetime
 import argparse
 import aiohttp
 from dotenv import load_dotenv
-from db_connection import get_db_connection
+from common.db_connection import get_db_connection
 
 # Load environment variables
 load_dotenv()
