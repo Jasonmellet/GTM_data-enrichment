@@ -210,3 +210,20 @@ For questions or support:
 - Truncated subjects: handled by validator; token-wise trim + fallbacks.
 - Wrong-row writes: confirm `Contact id` field; pipeline selects by ID.
 - Mixed plant-based/dairy: validator decouples and rewrites conflicted sentences.
+
+
+## Quick start
+
+1. Create `.env` from `env_example.txt` and fill in real values.
+2. Install deps: `python3 -m pip install -r requirements.txt`.
+3. Run Broadway enrichment (examples):
+   - Validate/move (dry-run): `python3 clients/Broadway/scripts/move_catchall_contacts.py --limit 50 --dry-run`
+   - Full discovery: `python3 clients/Broadway/scripts/enhanced_email_discovery.py --all-contacts --limit 50 --workers 6`
+
+## Repo structure
+- Active: `clients/Broadway/scripts`, `clients/Broadway/config`, `core`, `docs`.
+- Archived: `archive/2025-08-19/...` (tests, legacy scripts, responses).
+
+## Safety
+- Secrets are placeholders only; keep real keys in `.env`.
+- `credentials.json` is git-ignored and removed from history.
