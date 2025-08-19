@@ -1,59 +1,25 @@
-# AGT Data Enrichment - Working Scripts
+# Scripts Overview (Standardized Names)
 
-This document describes the main working scripts for the AGT Data Enrichment pipeline.
+This repo contains two client workspaces; Broadway naming is standardized to clarity.
 
-## Working Scripts
+## Broadway Active Scripts
 
-### 01_research_pipeline.py
-**Purpose**: Collects research data for companies and contacts using Perplexity Sonar API
-**Status**: ⚠️ Has indentation issues - needs fixing
-**What it does**:
-- Reads company data from Google Sheets
-- Researches companies, contacts, industry pain points, and opportunities
-- Writes research data to columns AV-AZ
+- Data cleanup: `clients/Broadway/scripts/data_cleanup.py`
+- DB loader: `clients/Broadway/scripts/db_loader.py`
+- Web crawler: `clients/Broadway/scripts/web_crawler.py`
+- Perplexity enricher: `clients/Broadway/scripts/perplexity_enricher.py`
+- Apollo enricher: `clients/Broadway/scripts/apollo_enricher.py`
+- Email discovery (target name): `clients/Broadway/scripts/email_discovery.py` (current file: `enhanced_email_discovery.py`)
+- Catch-all migrator (target name): `clients/Broadway/scripts/email_catchall_migrator.py` (current file: `move_catchall_contacts.py`)
 
-### 02_email_generator.py
-**Purpose**: Generates 3 personalized cold emails using OpenAI API based on collected research data
-**Status**: ✅ **WORKING PERFECTLY**
-**What it does**:
-- Reads research data from columns AV-AZ
-- Generates 3 distinct emails with different CTAs:
-  - Email 1: Reply to email
-  - Email 2: Visit website  
-  - Email 3: Request sample
-- Writes emails to columns BA-BL (Subject, Icebreaker, Body, CTA for each email)
+### Run examples
 
-**Usage**:
-```bash
-python3 02_email_generator.py
-```
+- Email discovery (batch):
+  `python3 clients/Broadway/scripts/enhanced_email_discovery.py --all-contacts --limit 50 --workers 6`
+- Catch-all migrator (dry-run):
+  `python3 clients/Broadway/scripts/move_catchall_contacts.py --limit 50 --dry-run`
 
-**Note**: Currently configured to process row 5. Edit the `sheet_row = 5` line to change which row to process.
+## Notes
 
-## Current Status
-
-- ✅ **Row 2**: 8th Avenue Food and Provisions - Research + Emails ✅
-- ✅ **Row 3**: AbiMar Foods - Research + Emails ✅  
-- ✅ **Row 4**: ACH Food Companies - Research + Emails ✅
-- ✅ **Row 5**: Annie's Homegrown - Research + Emails ✅
-
-## Column Structure
-
-- **AV-AZ**: Research data (Company Research, Contact Research, Industry Pain Points, Schreiber Opportunity, Research Quality Score)
-- **BA-BD**: Email 1 (Subject, Icebreaker, Body, CTA)
-- **BE-BH**: Email 2 (Subject, Icebreaker, Body, CTA)
-- **BI-BL**: Email 3 (Subject, Icebreaker, Body, CTA)
-- **BM-BN**: Reserved for hyperlink variables (DO NOT OVERWRITE)
-
-## Next Steps
-
-1. **Fix the research script** (`01_research_pipeline.py`) - resolve indentation issues
-2. **Continue processing** additional rows as needed
-3. **Maintain the working system** - the email generator is working perfectly!
-
-## Dependencies
-
-- `google_sheets_handler.py`
-- `config.py` 
-- `.env` file with API keys
-- Required Python packages (see requirements.txt)
+- Secret values are placeholders only (`env_example.txt`). Use a private `.env` for real keys.
+- Archived tests/legacy scripts are under `archive/2025-08-19/`.

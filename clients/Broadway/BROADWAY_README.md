@@ -25,6 +25,20 @@
 - **API Integration Problems**: Apollo and Yelp APIs had persistence issues
 - **Scoring Logic Errors**: Fit scores and outreach readiness calculations were broken
 
+## 🔤 Naming Conventions (Modules & Scripts)
+
+To keep things clear and consistent going forward, Broadway modules use this convention:
+
+- Format: `domain_action_target.py`
+- Examples: `db_loader.py`, `email_discovery.py`, `email_catchall_migrator.py`, `apollo_enricher.py`, `perplexity_enricher.py`, `web_crawler.py`
+
+Planned alignments (implemented on upgrade branch):
+- `enhanced_email_discovery.py` → `email_discovery.py`
+- `move_catchall_contacts.py` → `email_catchall_migrator.py`
+- Keep: `apollo_enricher.py`, `perplexity_enricher.py`, `web_crawler.py`, `data_cleanup.py`, `db_loader.py`
+
+Documentation and references will use the target names above. The branch `feature/email-discovery-upgrade` will implement code renames and imports.
+
 ## 🎯 New Approach: Clean Architecture
 
 **"Create small modules to do specific tasks, each working independently and reliably"**
