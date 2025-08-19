@@ -8,8 +8,8 @@ Logic per contact (main list):
 - If none are valid → insert into summer_camps.catchall_contacts and delete from summer_camps.contacts
 
 Usage:
-  python3 scripts/move_catchall_contacts.py --limit 50            # process first 50
-  python3 scripts/move_catchall_contacts.py --limit 50 --dry-run  # simulate only
+  python3 scripts/email_catchall_migrator.py --limit 50            # process first 50
+  python3 scripts/email_catchall_migrator.py --limit 50 --dry-run  # simulate only
 """
 
 import asyncio

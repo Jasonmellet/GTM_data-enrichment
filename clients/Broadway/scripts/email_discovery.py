@@ -12,8 +12,8 @@ Current workflow (aligned with production rules):
 7. Supports multiple workers for batch processing via --workers N
 
 Usage:
-    python3 scripts/enhanced_email_discovery.py --contact-id 41
-    python3 scripts/enhanced_email_discovery.py --all-contacts --limit 50 --workers 6
+    python3 scripts/email_discovery.py --contact-id 41
+    python3 scripts/email_discovery.py --all-contacts --limit 50 --workers 6
 """
 
 import asyncio
@@ -41,7 +41,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-class EnhancedEmailDiscovery:
+class EmailDiscovery:
     """Complete email discovery and validation pipeline."""
     
     def __init__(self):
@@ -586,7 +586,7 @@ async def main():
         sys.exit(1)
     
     try:
-        discovery = EnhancedEmailDiscovery()
+        discovery = EmailDiscovery()
         
         if args.contact_id:
             # Process single contact

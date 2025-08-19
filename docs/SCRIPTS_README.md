@@ -9,15 +9,15 @@ This repo contains two client workspaces; Broadway naming is standardized to cla
 - Web crawler: `clients/Broadway/scripts/web_crawler.py`
 - Perplexity enricher: `clients/Broadway/scripts/perplexity_enricher.py`
 - Apollo enricher: `clients/Broadway/scripts/apollo_enricher.py`
-- Email discovery (target name): `clients/Broadway/scripts/email_discovery.py` (current file: `enhanced_email_discovery.py`)
-- Catch-all migrator (target name): `clients/Broadway/scripts/email_catchall_migrator.py` (current file: `move_catchall_contacts.py`)
+- Email discovery: `clients/Broadway/scripts/email_discovery.py` (renamed from `enhanced_email_discovery.py`)
+- Catch-all migrator: `clients/Broadway/scripts/email_catchall_migrator.py` (renamed from `move_catchall_contacts.py`)
 
 ### Run examples
 
 - Email discovery (batch):
-  `python3 clients/Broadway/scripts/enhanced_email_discovery.py --all-contacts --limit 50 --workers 6`
+  `python3 clients/Broadway/scripts/email_discovery.py --all-contacts --limit 50 --workers 6`
 - Catch-all migrator (dry-run):
-  `python3 clients/Broadway/scripts/move_catchall_contacts.py --limit 50 --dry-run`
+  `python3 clients/Broadway/scripts/email_catchall_migrator.py --limit 50 --dry-run`
 
 ## Notes
 
