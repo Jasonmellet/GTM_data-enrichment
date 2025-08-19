@@ -110,11 +110,11 @@ CSV Input → Data Validation → Database Loading → Business Enrichment → C
 - **`apollo_enricher.py --batch-50`**: Process organizations in batches ✅
 - **`A_data_cleanup.py`**
 - **`B_db_loader.py`**
-- **`D_web_crawler.py`**
-- **`E_perplexity_enricher.py`**
-- **`F_apollo_enricher.py --comprehensive-discovery`**: Two-phase email discovery strategy ✅
-- **`G_email_discovery.py`** (was `enhanced_email_discovery.py`): pattern-only validation; currently under upgrade
-- **`H_email_catchall_migrator.py`** (was `move_catchall_contacts.py`): move non-validated to catchall ✅
+- **`C_web_crawler.py`**
+- **`D_perplexity_enricher.py`**
+- **`E_apollo_enricher.py --comprehensive-discovery`**: Two-phase email discovery strategy ✅
+- **`F_email_discovery.py`** (was `enhanced_email_discovery.py`): pattern-only validation; currently under upgrade
+- **`G_email_catchall_migrator.py`** (was `move_catchall_contacts.py`): move non-validated to catchall ✅
 
 ## 🚀 **EMAIL DISCOVERY & VALIDATION STATUS**
 
