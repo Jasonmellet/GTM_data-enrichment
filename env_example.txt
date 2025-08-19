@@ -1,0 +1,20 @@
+# Example environment (NO REAL KEYS)
+
+# API provider placeholders
+OPENAI_API_KEY=your_openai_key
+ANTHROPIC_API_KEY=your_anthropic_key
+XAI_API_KEY=your_xai_key
+ZB_API_KEY=your_zerobounce_key
+
+# Database
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=summer_camps_db
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
+
+# Postgres DSN (optional)
+DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}
+
+# Other
+ENV=development

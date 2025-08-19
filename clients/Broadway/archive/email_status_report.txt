@@ -1,0 +1,16 @@
+EMAIL STATUS REPORT
+==================================================
+
+Generated: 2025-08-18 11:27:29
+
+Total Organizations: 256
+Organizations with Direct Emails: 92 (35.9%)
+Organizations with Generic Emails: 57 (22.3%)
+Organizations with Missing Emails: 126 (49.2%)
+
+ENRICHMENT PRIORITIES
+--------------------------------------------------
+Priority 1 - Active businesses with generic emails: 4
+Priority 2 - Active businesses with missing emails: 6
+Priority 3 - Other businesses with generic emails: 63
+Total contacts needing enrichment: 63

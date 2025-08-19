@@ -1,0 +1,64 @@
+org_id,legal_name,display_name,website_domain,contact_id,full_name,role_title,email,business_status,website_url,website_status,fit_score,outreach_readiness,csv_contact_id,email_status
+8,Arcadia Center For Sustainable Food and Agriculture,Arcadia Center For Sustainable Food and Agriculture,https://www.arcadiafood.org,8,Ivy Mitchell,Camp Director,info@arcadiafood.org,open,https://www.arcadiafood.org,200.0,160.0,70.0,8.0,generic
+15,Camp Specialists,Camp Specialists,https://www.campspecialists.com,15,Barrie Kaplan,,info@campspecialists.com,open,https://www.campspecialists.com,200.0,160.0,70.0,15.0,generic
+17,Music Store,Music Store,https://www.musicstoreinc.com,17,Vicki Armstrong,,INFO@MUSICSTOREINC.COM,open,https://www.musicstoreinc.com,200.0,50.0,70.0,17.0,generic
+6,Artful Expeditions,Artful Expeditions,https://www.artfulexpeditions.com/,6,Kristen Kantounatakis,Owner,,open,https://www.artfulexpeditions.com/,200.0,160.0,10.0,6.0,missing
+10,Darn Good Yarn,Darn Good Yarn,https://darngoodyarn.com,10,Nicole Snow,Founder & CEO,,open,https://darngoodyarn.com,200.0,70.0,10.0,10.0,missing
+11,Netwurx,Netwurx,https://www.ntg.systems,11,Jeff Mcdonald,,,open,https://www.ntg.systems,200.0,50.0,10.0,11.0,missing
+13,Social Media Link,Social Media Link,https://www.vesta-go.com/,13,Amy Belton,Marketing,,open,https://www.vesta-go.com/,200.0,90.0,0.0,13.0,missing
+19,Indiana Credit Union League,Indiana Credit Union League,https://www.icul.org,19,Ann Kline,,,open,https://www.icul.org,200.0,50.0,10.0,19.0,missing
+22,Academy Of Country Music,Academy Of Country Music,https://www.acmcountry.com,22,Michelle Goble,,,open,https://www.acmcountry.com,200.0,60.0,0.0,22.0,missing
+20,ABC Sports Camps,ABC Sports Camps,https://www.abcsportscamps.com,20,Tim Cupello,,support@circuitree.com,,https://www.abcsportscamps.com,200.0,180.0,70.0,20.0,generic
+30,Cecbr,Cecbr,https://www.cecbr.com/,30,,,info@cecbr.com,closed_permanently,https://www.scottysmusic.com,404.0,,,,generic
+32,Campwayne,Campwayne,https://www.campwayne.com/,32,Josh Corpuel,Director,info@campwayne.com,open,https://www.koatech.net,404.0,,,253.0,generic
+33,Camprobinhood,Camprobinhood,https://www.camprobinhood.com,33,Richard Woodstein,Owner/Director,info@camprobinhood.com,open,https://www.kidscamps.com,404.0,,,254.0,generic
+35,Campwatitoh,Campwatitoh,https://www.campwatitoh.com,35,Drew Bitterman,Director of Camp Watitoh,info@campwatitoh.com,open,https://www.hugsgym.com,404.0,,,256.0,generic
+36,Chipinaw,Chipinaw,https://www.chipinaw.com,36,Michael Baer,Owner/Director,info@chipinaw.com,,https://www.kingmusic1.com,404.0,,,257.0,generic
+37,Tylerhillcamp,Tylerhillcamp,https://www.tylerhillcamp.com,37,Andy and Wendy Siegel,Owners/Directors,info@tylerhillcamp.com,open,https://www.monstercable.com,404.0,,,258.0,generic
+43,Mtlc Music,Mtlc Music,https://www.mtlc.net,44,Arnold Schachere,,customerservice@gettothegym.com,open,https://www.gettothegym.com,404.0,,,31.0,generic
+45,Long Lake Camp Adventures,Long Lake Camp Adventures,https://www.kidscamps.com,46,Jo Englesson,,info@ccca.org?subject=Contact from website,open,https://www.ccca.org,404.0,,,33.0,generic
+47,Harris Gymnastics,Harris Gymnastics,https://www.hugsgym.com,48,Michael Harris,,info@houcks.com,open,https://www.houcks.com,404.0,,,35.0,generic
+51,Docs Gym,Docs Gym,https://www.docsgym.org,52,Corey Lawker,,contact@kiddermusic.com,open,https://www.kiddermusic.com,404.0,,,39.0,generic
+62,Mid Rivers Music Instruments,Mid Rivers Music Instruments,https://www.midriversmusic.com,63,John Sherwin,,info@trainyardgym.com,open,https://www.trainyardgym.com,404.0,,,50.0,generic
+66,United States Gymstc Trng Ctr,United States Gymstc Trng Ctr,https://www.united-states-flag.com,67,Gina Johnson,,hello@jsmmusic.com,open,https://www.jsmmusic.com,404.0,,,54.0,generic
+69,The Music Machine,The Music Machine,https://www.themusicmachine.co.uk,70,Paul Chamberlin,,support@24go.zendesk.com,open,https://www.24hourfitness.com,404.0,,,57.0,generic
+71,Chapel Music Company,Chapel Music Company,https://www.chapel-music.com,72,Jim Sowell,,info@travelcalumet.com,open,https://www.travelcalumet.com,404.0,,,59.0,generic
+78,Blue Man Productions,Blue Man Productions,https://www.blueman.com,79,Antonio Palumbo,,info@campnewyork.com,open,https://www.campcony.com,404.0,,,66.0,generic
+87,Kt Cabins,Kt Cabins,https://www.tncabins4rent.com,88,Ken Gilreath,,info@icodeschool.com,open,https://icodeschool.com/mckinney104,404.0,,,75.0,generic
+89,TENNESSEE AMATEUR SOFTBALL ASSOCIATION,TENNESSEE AMATEUR SOFTBALL ASSOCIATION,https://www.chattanoogaasa.com,90,Kim Swafford,,info@younggates.com,,https://www.younggates.com,404.0,,,77.0,generic
+96,B K G Inc,B K G Inc,https://www.outdooradventuresinc.com,97,Brad Gohr,,support@thecodegalaxy.com?subject=Support,open,https://thecodegalaxy.com,404.0,,,84.0,generic
+98,"Mrz, LLC","Mrz, LLC",https://www.silvercreeksportsplex.com,99,Audrey Castro,,info@oneononelearning.com,open,https://www.oneononelearning.com/summer-learning,404.0,,,86.0,generic
+114,WorldWise Tutoring,WorldWise Tutoring,https://www.worldwisetutoring.com/summer-enrichment/,115,Lindsey Wander,Owner,info@startutoringcenters.com,open,https://www.startutoringcenters.com/,404.0,,,102.0,generic
+122,Results Learning,Results Learning,https://results-learning.com/,123,Cyle Feingold,Owner,info@codevirginia.org,open,https://codevirginia.org,404.0,,,110.0,generic
+128,Maker State STEM Camps,Maker State STEM Camps,https://maker-state.com/,130,Stephen Gilman,Executive Director - MakerState,contact@brooklynrobotfoundry.com,open,https://brooklynrobotfoundry.com,404.0,,,117.0,generic
+129,Summer Enrichment Camp at Dallas International School,Summer Enrichment Camp at Dallas International School,https://www.dallasinternationalschool.org/,131,Aisha Dibaki,,Admin@steamboatbooktrails.org,open,https://www.mybooktrails.org,404.0,,,118.0,generic
+144,Charlotte Christian School Summer Camps,Charlotte Christian School Summer Camps,https://www.charlottechristian.com/,146,Laura Goodyear,Marketing,info@rarelearning.com,open,https://rarelearning.com,404.0,,,133.0,generic
+146,NORY,NORY,https://www.nory.com,148,anjali dhawan,,hello@sshouse.com,open,https://sunshinehouse.com/center/frisco,404.0,,,135.0,generic
+151,The School in Rose Valley,The School in Rose Valley,https://www.theschoolinrosevalley.org/,153,Rory Mannion,Director of Auxillary Programs,support@kidstrong.com,open,https://www.kidstrong.com/mckinney,404.0,,,140.0,generic
+155,Virtual Hackers Camp,Virtual Hackers Camp,https://learn01.io/,157,Willie Avendano,Owner,info@bchcenter.org,open,https://bchcenter.org,404.0,,,144.0,generic
+156,Carpe Diem Private Preschool,Carpe Diem Private Preschool,https://www.carpediempreschool.com,158,Barb Sagehorn,School Leader,info@kidsandcribschildcare.com,open,https://www.kidsandcribschildcare.com,404.0,,,145.0,generic
+157,Rare Learning,Rare Learning,https://rarelearning.com,159,Saba Nanijani,,info@kids4coding.com,open,https://www.kids4coding.com/,404.0,,,146.0,generic
+158,Kotiacademy,Kotiacademy,https://www.kotiacademy.com/whykoti,160,Erik and Leslie Falconer,Director,support@codeverse.com,open,https://www.codeverse.com/,404.0,,,147.0,generic
+161,Steam Academy,Steam Academy,https://www.steamacademy.com,163,Oziem Idil,Owner,info@bgcqueens.org,open,https://bgcqueens.org/,404.0,,,150.0,generic
+165,SMARTS Club,SMARTS Club,https://smartsclub.net,167,Meenakshi Singh,,contact@thegraysonschool.org,open,https://thegraysonschool.org/2020-summer-online-programs/,404.0,,,154.0,generic
+171,Codeverse,Codeverse,https://www.codeverse.com/,173,Katy Lynch,,info@learning-grove.org,open,https://www.childreninc.org/,404.0,,,160.0,generic
+175,Light house Writers Camps,Light house Writers Camps,https://www.lighthousewriters.org,177,Alexa Culshaw,,info@launchmath.com,open,https://launchmath.com/,404.0,,,164.0,generic
+182,Heritage Learning Academy,Heritage Learning Academy,https://www.hlafrisco.com,184,Briana Heritage Learning Academy,,info@coderkids.com,,https://coderkids.com,404.0,,,171.0,generic
+194,G-Star School of the Arts,G-Star School of the Arts,https://gstarschool.org,196,Greg Hauptner,Creative Director,info@isteamafterschool.com,open,https://www.isteamafterschool.com/,404.0,,,183.0,generic
+197,South LakeTutoring,South LakeTutoring,https://southlakecamps.com,199,Daniel Mcmaster,,info@wmmi.org,open,https://www.wmmi.org,404.0,,,186.0,generic
+203,Kaleidoscope Enrichment Program,Kaleidoscope Enrichment Program,https://www.towerhill.org/student-experience/after-school---kaleidoscope/enrichment,205,Cindy Sardo,Director of Auxiliary Programs,info@kidsfoundationacademy.com,open,https://www.kidsfoundationacademy.com/,404.0,,,192.0,generic
+204,TACT,TACT,https://www.buildwithtact.org,206,Becky Unknown,COO/Programs Director,info@pyeprep.com,open,https://www.pyeprep.com,404.0,,,193.0,generic
+210,Western Museum of Mining & industry,Western Museum of Mining & industry,https://www.wmmi.org,212,Grant Dewey,,info@maclay.org,open,https://maclay.org,404.0,,,199.0,generic
+211,Character Camp,Character Camp,https://charactercamp.net,213,Arthur Davidson,Camp Director,support@thecodegalaxy.com?subject=Support,open,https://www.thecodegalaxy.com/,404.0,,,200.0,generic
+213,Beth Yeshurun Day School,Beth Yeshurun Day School,https://byds.org/school-life/camp-byds/,215,Erica Goldberg,Marketing,info@mysite.com,open,https://www.nhafterschool.org,404.0,,,202.0,generic
+217,Pye Education Center,Pye Education Center,https://www.pyeprep.com,219,Steve Monolakis,,support@kidstrong.com,open,https://www.kidstrong.com/locations/fairfield,404.0,,,206.0,generic
+219,Huntington Learning Centers,Huntington Learning Centers,https://www.huntingtonhelps.com,221,Daniel Mathis,Owner,info@cedarbrookdaycamp.com,open,https://cedarbrookdaycamp.net/,404.0,,,208.0,generic
+220,Bricks 4 Kidz,Bricks 4 Kidz,https://www.bricks4kidz.com,222,Dawn Craig,Owner Bricks 4 Kidz Franchise,info@paacolorado.org,open,https://paacolorado.org,404.0,,,209.0,generic
+232,Cedar Brook Day Camp,Cedar Brook Day Camp,https://cedarbrookdaycamp.net/,234,Galen Smith,,info@catalinaislandcamps.com,open,https://catalinaislandcamps.com,404.0,,,221.0,generic
+233,Performing Arts Academy,Performing Arts Academy,https://paacolorado.org,235,Julia Tobey,,info@saintmarks.com,open,https://www.saintmarks.com/saint-marks-directory/stephanie-russo-bischoff,404.0,,,222.0,generic
+243,Institute for Mathematics and Computer Science,Institute for Mathematics and Computer Science,https://imacs.org,245,Jennifer Bustamante,Assistant Director,info@maclay.org,open,https://maclay.org,404.0,,,232.0,generic
+248,Kings Bay Y,Kings Bay Y,https://kingsbayy.org,250,Nadira Persaud,,info@chateaugay.com,open,https://www.chateaugay.com/,404.0,,,237.0,generic
+249,Colorado Children's,Colorado Children's,https://coloradokids.org,251,Kelly Causey,President And Ceo,info@cecbr.com,open,https://www.cecbr.com/,404.0,,,238.0,generic
+252,Ferris State University,Ferris State University,https://ferris.edu,254,Susan Roberts,Administrative Secretary,info@camprobinhood.com,open,https://www.camprobinhood.com,404.0,,,241.0,generic
+254,Berkeley coding academy,Berkeley coding academy,https://berkeleycodingacademy.com,256,Corey Wade,Media Contact,info@campwatitoh.com,open,https://www.campwatitoh.com,404.0,,,243.0,generic
+255,LeafSpring School at Sonterra,LeafSpring School at Sonterra,https://sonterra.leafspringschool.com/,257,Vance Spilman,CEO,info@chipinaw.com,open,https://www.chipinaw.com,404.0,,,244.0,generic

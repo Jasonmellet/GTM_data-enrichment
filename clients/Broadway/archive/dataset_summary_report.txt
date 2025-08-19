@@ -1,0 +1,21 @@
+COMPLETE ENRICHED DATASET SUMMARY REPORT
+==================================================
+
+Generated: 2025-08-18 11:27:29
+Total Records: 270
+
+Unique Organizations: 256
+Contacts with Emails: 140
+Contacts with Phones: 204
+Open Businesses: 226
+High Fit Organizations (≥70): 18
+Outreach Ready Contacts (≥25): 9
+
+Average Fit Score: 101.4
+Average Outreach Readiness: 30.9
+
+DATASET INSIGHTS:
+- Organizations with Categories: 21
+- Organizations with Social Media: 194
+- Organizations with Maps Verification: 0
+- Total API Calls Made: 333

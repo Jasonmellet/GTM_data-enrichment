@@ -1,0 +1,22 @@
+============================================================
+BROADWAY DATABASE LOADING REPORT
+============================================================
+Original CSV rows: 10
+New organizations loaded: 10
+New contacts loaded: 10
+Existing records skipped: 0
+
+
+NEW RECORDS LOADED:
+  Organization 1 with primary contact
+  Organization 2 with primary contact
+  Organization 3 with primary contact
+  Organization 4 with primary contact
+  Organization 5 with primary contact
+  Organization 6 with primary contact
+  Organization 7 with primary contact
+  Organization 8 with primary contact
+  Organization 9 with primary contact
+  Organization 10 with primary contact
+
+LOADING COMPLETE - Ready for enrichment pipeline!

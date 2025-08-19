@@ -1,0 +1,42 @@
+============================================================
+BROADWAY DATA CLEANUP REPORT
+============================================================
+Original rows: 10
+Cleaned rows: 10
+Duplicates removed: 0
+
+COLUMN MAPPINGS:
+  company_name → company_name
+  full_address  → full_address
+  city → city
+  state → state
+  zip_code → zip_code
+  contact_phone → contact_phone
+  website_url → website_url
+  lat → lat
+  lon → lon
+  rating → rating
+  review_count → review_count
+  description → description
+  camp_type → camp_type
+  place_id → place_id
+  age_range → age_range
+  session_length → session_length
+  specialties → specialties
+
+UNMAPPED COLUMNS (kept as-is):
+  gemini_enriched
+  enrichment_confidence
+  enrichment_quality_score
+  categories
+  enrichment_features
+  enrichment_key_strengths
+  enrichment_updated_at
+  data_source
+  search_term
+  is_camp
+  camp_classification
+  created_at
+  updated_at
+
+CLEANUP COMPLETE - Ready for database loading!

@@ -1,0 +1,21 @@
+============================================================
+BROADWAY DATA CLEANUP REPORT
+============================================================
+Original rows: 297
+Cleaned rows: 297
+Duplicates removed: 2
+
+COLUMN MAPPINGS:
+  company_name → company_name
+  full_address  → full_address
+  city → city
+  state → state
+  zip_code → zip_code
+  contact_phone → contact_phone
+  website_url → website_url
+
+DUPLICATE ROWS REMOVED:
+  Row 275
+  Row 276
+
+CLEANUP COMPLETE - Ready for database loading!

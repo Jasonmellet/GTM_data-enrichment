@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$.py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# OS files
+.DS_Store
+
+# Python packaging
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# SQLite / misc data
+*.db
+*.sqlite
+*.sqlite3
+
+# Credentials
+.env*
+.token
+token.json
+
+# Local outputs
+clients/*/outputs/
+outputs/
+
+# Cache
+.cache/
+
